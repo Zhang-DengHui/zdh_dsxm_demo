@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="1.5dp" android:layout_margin="1.5dp" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="100dp" android:layout_width="match_parent" android:scaleType="fitXY" android:id="@+id/home_img"/>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/home_name" android:paddingLeft="10dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/home_price" android:paddingLeft="10dp" android:layout_below="@+id/home_name" android:text="11111111111111"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

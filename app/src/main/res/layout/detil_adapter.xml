@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="120dp" android:layout_width="match_parent" android:layout_gravity="center_horizontal" android:id="@+id/detilImg"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/detilTitle" android:layout_marginTop="30dp" android:gravity="center_horizontal"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/detilPrice" android:layout_marginTop="5dp" android:gravity="center_horizontal"/>
+
+</LinearLayout>

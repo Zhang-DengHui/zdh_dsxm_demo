@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout tools:context=".SortDetailActivity" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_top_title" android:id="@+id/layout_head"/>
+
+
+    -<ScrollView android:orientation="vertical" android:layout_height="0dp" android:layout_width="match_parent" app:layout_constraintTop_toBottomOf="@id/layout_head" app:layout_constraintBottom_toBottomOf="parent">
+
+
+    -<androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <com.google.android.material.tabs.TabLayout android:layout_height="60dp" android:layout_width="match_parent" android:id="@+id/sortTabLayout" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="1dp" android:background="#fff"/>
+
+
+    -<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txtLayout" app:layout_constraintTop_toBottomOf="@id/sortTabLayout" android:paddingBottom="15dp" android:paddingTop="15dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_title" android:text="name" android:layout_gravity="center_horizontal" android:textSize="16sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_desc" android:text="name" android:layout_gravity="center_horizontal" android:textSize="16sp"/>
+
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/recyclerview" app:layout_constraintTop_toBottomOf="@id/txtLayout" android:background="#fff"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</LinearLayout>

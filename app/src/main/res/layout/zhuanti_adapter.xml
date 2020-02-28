@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="150dp" android:layout_width="match_parent" android:scaleType="fitXY" android:id="@+id/zhuantiImg"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/zhuantiSubtitle" android:layout_marginTop="10dp" android:textSize="20sp" android:gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/zhuantiTitle" android:layout_marginTop="5dp" android:textSize="15sp" android:gravity="center" android:textColor="#DDBFBF"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/zhuantiPrice" android:layout_marginTop="5dp" android:gravity="center" android:textColor="#DF3535"/>
+
+</LinearLayout>
